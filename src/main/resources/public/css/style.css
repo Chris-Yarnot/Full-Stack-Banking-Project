@@ -1,0 +1,218 @@
+/* don't feel bad that this looks nice I made this a year ago for a different project*/
+*{
+    border-radius: 0 !important;
+}
+html{
+    height: 100%;
+}
+body {
+    
+    background-image: url(../images/y-so-serious.png);
+    
+    height: 10%;
+    background-position: center;
+    background-repeat: repeat;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+span{
+	padding-left: 10pt;
+}
+.controlled-by-js{
+	display: none;
+}
+.head,.navbar{
+    padding: 0px;
+    background-color: #FFFFFF;
+    overflow: auto;
+    position: relative;
+    min-height: 70px;
+}
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #FFFFFF;
+    top: 0;
+    bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+
+}
+
+.profile{
+  /* my own profile picture*/
+  max-width:30%;
+  /*an arbitrary size before it becomes to small to be recognized*/
+  min-width:150px;
+  height: auto;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.nav-item{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.nav-link{
+    color: #777777;
+}
+
+.jumbotron{
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-color: #dddddd;
+    border-style: solid;
+    background-color: #ffffff;
+}
+.title{
+    /*this is a title for sections*/
+    color: #4aaaa5;
+    padding-bottom: 1.5rem;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    margin-bottom: 1.5rem;
+    border-bottom-color: #cccccc;
+}
+thead th,thead th:hover{
+    background-color: #ccc;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover {background-color: #ddd;}
+
+.red{
+    color: darkred;
+    background-color: salmon;
+}
+.yellow{
+    color: darkgoldenrod;
+    background-color: yellow;
+}
+.blue{
+    color: darkblue;
+    background-color: aqua;
+}
+.green{
+    color: darkgreen;
+    background-color: lightgreen;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: #cccccc;
+    width: 100%;
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    padding-top: 1rem;
+    border-top-width: 0.5rem;
+    font-size: x-small;
+}
+ul{
+    /*list entries should lose their style attributes*/
+    list-style-type: none;
+    padding-left: 0px;
+}
+.port-entry{
+    /*a portfolio entry*/
+    max-width: 400px;
+    min-width: 250px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-bottom: 15px;
+    padding-left:0;
+    padding-right:0;
+}
+
+.port-img{
+    /*the picture for a portfolio entry*/
+    width: 100%;
+}
+/*
+in an older build this was a class for <p> however is now for the parent <div>s
+this allows hidden descriptions to appear when hovering over an element
+*/
+.port-text{
+    /*the box on top of pictures on the portfolio page containing all the text*/
+    width: 100%;
+    position: absolute;
+    padding-top:calc(10% - 12px);
+    padding-bottom: calc(10% - 12px);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    bottom: 12%;
+    background-color: #4aaaa5;
+    font-size:  larger;
+    text-align: center;
+}
+.port-text p{
+    /*text which appears inside the boxes on the portfolio page*/
+    color: #FFFFFF;
+    margin-bottom:0;
+    /*prevents weird spacing with hidden <p>*/
+    text-align: center;
+}
+.port-desc{
+    /*the hidden text which appears when you hover over a portfolio entry*/
+    display: none;
+    font-size: smaller;
+}
+
+.port-entry:hover .port-desc{
+    display: initial;/*make the hidden text appear when you hover over any part of the portfolio entry*/
+}
+.btn{
+    /*the submit button on the contacts page*/
+    background-color: #4aaaa5;
+    color: #FFFFFF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+ul{
+    padding-inline-start: 40px;
+    list-style-type: disc;
+}
+code, .code{
+    font-family: monospace, monospace;
+}
+code{
+    
+    font-style: normal;
+    color: #636466;
+    background-color: #f7f7f8;
+}
+@media screen and (max-width: 991px){
+    /*when the navbar stacks horizontally*/
+    .navbar-brand{
+        padding-top: 35px;
+    }
+    .nav-item + .nav-item{
+        /*create those bars between nav-items*/
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top-color: #cccccc;
+    }
+}
+@media screen and (min-width:992px){
+    /*when the navbar stacks vertically*/
+    .navbar-brand{
+        padding-top: 10px;
+    }
+    .nav-item + .nav-item{
+        /*create those bars between nav-items*/
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: #cccccc;
+    }
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Banking App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Georgia|Arial|Helvetica+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="head">
+    <nav class="navbar navbar-expand-lg container">
+      <div class="navbar-brand">
+        <h1>Banking App</h1>
+      </div>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="logout">Logout</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container jumbotron overflow-auto">
+    <h1 class="title">Apply for a Bank Account</h1>
+      <form action="/Apply_for_accounts" method="POST">
+            <div class="form-group">
+                <p> New account name:
+                <input type="text" class="form-control" placeholder = "AccountName" name="accountName">
+                </p>
+                <p> Account Type:
+            	<select name="accountType" class="form-control">
+				  <option value="1">Savings</option>
+				  <option value="2">Checkings</option>
+				</select>
+            	</p>
+            	<p> Initial deposit:
+            	<input type="number" class="form-control" placeholder= "0.00" name="deposit" step="0.01"></p>
+            <button type="submit" class="btn" name="submit">Submit Application</button>
+            </div>
+            
+        </form>    
+</body>
+
+</html>
+</body>
+</html>

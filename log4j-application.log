@@ -1,0 +1,69 @@
+2021-07-15 20:53:26 INFO  MainDriver:186 - username:accountname is being Approved.
+2021-07-15 20:53:26 WARN  MainDriver:126 - Attempted to add transaction $1.00	from external account	to username:accountname
+ through add instead of handle transaction 
+If this is not durring a bank account application process this is wrong
+2021-07-15 20:53:26 WARN  MainDriver:129 - $1.00	from external account	to username:accountname
+2021-07-15 21:40:57 INFO  MainDriver:96 - Attempted transaction: $100.00	from Krimz:Main	to external account
+2021-07-15 21:40:57 WARN  MainDriver:118 - transaction failed
+2021-07-15 21:42:06 INFO  MainDriver:96 - Attempted transaction: $100.00	from external account	to Krimz:Main
+2021-07-15 21:42:06 INFO  MainDriver:113 - Handled Transaction successfully$100.00	from external account	to Krimz:Main
+2021-07-15 21:42:11 INFO  MainDriver:96 - Attempted transaction: $100.00	from Krimz:Main	to external account
+2021-07-15 21:42:11 INFO  MainDriver:113 - Handled Transaction successfully$100.00	from Krimz:Main	to external account
+2021-07-15 22:40:31 INFO  MainDriver:96 - Attempted transaction: $300.00	from external account	to Krimz:Secondary
+2021-07-15 22:40:31 INFO  MainDriver:113 - Handled Transaction successfully$300.00	from external account	to Krimz:Secondary
+2021-07-15 22:41:01 INFO  MainDriver:96 - Attempted transaction: $300.00	from external account	to Krimz:Secondary
+2021-07-15 22:41:01 INFO  MainDriver:113 - Handled Transaction successfully$300.00	from external account	to Krimz:Secondary
+2021-07-15 22:42:42 INFO  MainDriver:96 - Attempted transaction: $900.00	from external account	to Krimz:Main
+2021-07-15 22:42:42 INFO  MainDriver:113 - Handled Transaction successfully$900.00	from external account	to Krimz:Main
+2021-07-15 22:45:16 INFO  MainDriver:96 - Attempted transaction: $900.00	from Krimz:Main	to external account
+2021-07-15 22:45:16 INFO  MainDriver:113 - Handled Transaction successfully$900.00	from Krimz:Main	to external account
+2021-07-15 22:45:55 INFO  MainDriver:96 - Attempted transaction: $900.00	from external account	to Krimz:Main
+2021-07-15 22:45:55 INFO  MainDriver:113 - Handled Transaction successfully$900.00	from external account	to Krimz:Main
+2021-07-15 22:48:03 INFO  MainDriver:96 - Attempted transaction: $889.00	from Krimz:Main	to external account
+2021-07-15 22:48:04 INFO  MainDriver:113 - Handled Transaction successfully$889.00	from Krimz:Main	to external account
+2021-07-15 22:48:19 INFO  MainDriver:96 - Attempted transaction: $2.00	from Krimz:Main	to external account
+2021-07-15 22:48:20 INFO  MainDriver:113 - Handled Transaction successfully$2.00	from Krimz:Main	to external account
+2021-07-15 22:48:55 INFO  MainDriver:96 - Attempted transaction: $601.00	from Krimz:Secondary	to external account
+2021-07-15 22:48:56 INFO  MainDriver:113 - Handled Transaction successfully$601.00	from Krimz:Secondary	to external account
+2021-07-15 23:05:13 INFO  MainDriver:43 - attempted to apply for account Krimz:Tertiary
+2021-07-16 00:22:17 INFO  MainDriver:43 - attempted to apply for account Krimz:Tertiary
+2021-07-16 00:44:44 INFO  MainDriver:203 - Krimz:Tertiary is being rejected.
+2021-07-16 00:46:51 INFO  MainDriver:203 - Krimz:Tertiary is being rejected.
+2021-07-16 00:50:48 INFO  MainDriver:43 - attempted to apply for account Krimz:Tertiary
+2021-07-16 09:50:29 INFO  MainDriver:43 - attempted to apply for account username:New Account Name
+2021-07-16 09:58:40 INFO  MainDriver:43 - attempted to apply for account Oscar:The Grouch
+2021-07-16 10:01:14 INFO  MainDriver:43 - attempted to apply for account mtndewlover69:Delicious Sugar water
+2021-07-16 10:14:16 INFO  MainDriver:43 - attempted to apply for account Chrisyarnot:Account 1
+2021-07-16 10:14:32 INFO  MainDriver:43 - attempted to apply for account Chrisyarnot:Account 2
+2021-07-16 10:15:19 INFO  MainDriver:186 - Chrisyarnot:Account 1 is being Approved.
+2021-07-16 10:15:19 WARN  MainDriver:126 - Attempted to add transaction $1.00	from external account	to Chrisyarnot:Account 1
+ through add instead of handle transaction 
+If this is not durring a bank account application process this is wrong
+2021-07-16 10:15:19 WARN  MainDriver:129 - $1.00	from external account	to Chrisyarnot:Account 1
+2021-07-16 10:15:21 INFO  MainDriver:186 - Chrisyarnot:Account 1 is being Approved.
+2021-07-16 10:15:22 WARN  MainDriver:126 - Attempted to add transaction $1.00	from external account	to Chrisyarnot:Account 1
+ through add instead of handle transaction 
+If this is not durring a bank account application process this is wrong
+2021-07-16 10:15:22 WARN  MainDriver:129 - $1.00	from external account	to Chrisyarnot:Account 1
+2021-07-16 10:15:23 INFO  MainDriver:186 - Chrisyarnot:Account 1 is being Approved.
+2021-07-16 10:15:23 WARN  MainDriver:126 - Attempted to add transaction $1.00	from external account	to Chrisyarnot:Account 1
+ through add instead of handle transaction 
+If this is not durring a bank account application process this is wrong
+2021-07-16 10:15:23 WARN  MainDriver:129 - $1.00	from external account	to Chrisyarnot:Account 1
+2021-07-16 10:15:25 INFO  MainDriver:186 - Chrisyarnot:Account 2 is being Approved.
+2021-07-16 10:15:26 WARN  MainDriver:126 - Attempted to add transaction $10.00	from external account	to Chrisyarnot:Account 2
+ through add instead of handle transaction 
+If this is not durring a bank account application process this is wrong
+2021-07-16 10:15:26 WARN  MainDriver:129 - $10.00	from external account	to Chrisyarnot:Account 2
+2021-07-16 10:15:32 INFO  MainDriver:203 - mtndewlover69:Delicious Sugar water is being rejected.
+2021-07-16 10:15:32 INFO  MainDriver:203 - username:New Account Name is being rejected.
+2021-07-16 10:15:33 INFO  MainDriver:203 - Oscar:The Grouch is being rejected.
+2021-07-16 10:16:35 INFO  MainDriver:96 - Attempted transaction: $36.00	from external account	to Krimz:Main
+2021-07-16 10:16:36 INFO  MainDriver:113 - Handled Transaction successfully$36.00	from external account	to Krimz:Main
+2021-07-16 10:16:45 INFO  MainDriver:96 - Attempted transaction: $36.00	from Krimz:Secondary	to external account
+2021-07-16 10:16:46 INFO  MainDriver:113 - Handled Transaction successfully$36.00	from Krimz:Secondary	to external account
+2021-07-16 10:17:26 INFO  MainDriver:96 - Attempted transaction: $36.00	from Krimz:Main	to username:accountname
+2021-07-16 10:17:26 INFO  MainDriver:113 - Handled Transaction successfully$36.00	from Krimz:Main	to username:accountname
+2021-07-16 10:25:50 INFO  MainDriver:203 - Krimz:Tertiary is being rejected.
+2021-07-16 10:27:22 INFO  MainDriver:43 - attempted to apply for account Krimz:Tertiary
+2021-07-16 10:27:30 INFO  MainDriver:203 - Krimz:Tertiary is being rejected.

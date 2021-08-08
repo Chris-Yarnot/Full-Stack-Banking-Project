@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Banking App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Georgia|Arial|Helvetica+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="head">
+    <nav class="navbar navbar-expand-lg container">
+      <div class="navbar-brand">
+        <h1>Banking App</h1>
+      </div>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="logout">Logout</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container jumbotron overflow-auto">
+    <h1 class="title">Accounts in need of approval</h1>
+    <div class="overflow-auto">
+      <table >
+        <thead>
+        <tr>
+          <th scope="col"># </th>
+          <th scope="col">Account's Name</th>
+          <th scope="col">Initial Deposit</th>
+          <th scope="col">Approve</th>
+          <th scope="col">Reject</th>
+        </tr>
+        </thead>
+        <tbody id= "my-accounts">
+        </tbody>
+      </table>    
+   </div>
+   </div>
+   <script src="view-applications.js"></script>
+   <script>grabAccounts("Applications", document.getElementById("my-accounts"));</script>
+</body>
+
+</html>
